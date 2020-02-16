@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Translator App</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+	<script src="https://unpkg.com/vue"></script>
+	
+</head>
+<body>
+	<div id="app">
+		<h1>Translator app</h1>
+		<input type="text" v-model = "translation" v-on:keyup.enter = "translate">
+		<button v-on:click = "translate"> Translate </button>
+		<p> {{ output }} </p>
+	</div>
+
+	<script type="text/javascript" src="./main.js"></script>
+
+</body>
+</html>
