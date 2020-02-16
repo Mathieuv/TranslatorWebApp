@@ -20,13 +20,13 @@ export default {
     return {
       output : '',
       input : '',
-      input_language : 'nl',
-      output_language : 'fr'
+      inputLanguage : 'nl',
+      outputLanguage : 'fr'
     }
   },
   methods: {
     translate: function(input_language,output_language){
-      let url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${this.input_language}&tl=${this.output_language}&dt=t&q=${this.input}`;
+      let url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${this.inputLanguage}&tl=${this.outputLanguage}&dt=t&q=${this.input}`;
       axios.get(url)
               .then(response => {
                 this.output = response.data[0][0][0]

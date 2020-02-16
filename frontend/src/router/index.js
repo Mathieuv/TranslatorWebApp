@@ -2,10 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 const routeroptions = [
-  {path: '/', component: 'Translator', name: 'Translator'},
-  { path: '*', component: 'NotFound' }
+  {path: '/', component: 'Translator', name: 'Translator'}
 ]
-
 
 const routes = routeroptions.map(route => {
   return {
