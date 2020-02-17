@@ -6,7 +6,8 @@ app = Flask(__name__,
             static_folder = "./dist/static",
             template_folder = "./dist")
 api = Api(app)            
-            
+
+#To be completed
 class Translate(Resource):
     def post(self):
         parser = reqparse.RequestParser()
