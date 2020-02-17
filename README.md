@@ -11,7 +11,7 @@ Contains:
 - ./src
 - main.js : runs Vue
 - App.vue : translator => calls google api for translation
---  TODO: dropdown for language selection, import file 
+       -  TODO: dropdown for language selection, import file 
        
 ## backend:
 Contains:
