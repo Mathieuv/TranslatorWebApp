@@ -6,11 +6,12 @@ Run main.bat to run the translatorwebapp.
 this will change to the required directory and run npm run dev on localhost:8080
 
 ## frontend: 
-Contains - index.html 
-         - ./src
-         - main.js : runs Vue
-         - App.vue : translator => calls google api for translation
-            -  TODO: dropdown for language selection, import file 
+Contains:
+- index.html 
+- ./src
+- main.js : runs Vue
+- App.vue : translator => calls google api for translation
+--  TODO: dropdown for language selection, import file 
        
 ## backend:
 Contains:
